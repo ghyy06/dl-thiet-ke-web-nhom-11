@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-daily",
             title: "Daily Life",
-            image: "Suộc Ảnh/exam.jpg",
+            image: "Suoc-Anh/exam.jpg",
             cards: [
                 { term: "Student", definition: "Học sinh, sinh viên" },
                 { term: "Teacher", definition: "Giáo viên" },
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-schools",
             title: "Schools",
-            image: "Suộc Ảnh/raisehands.jpg",
+            image: "Suoc-Anh/raisehands.jpg",
             cards: [
                 { term: "Principal", definition: "Hiệu trưởng" },
                 { term: "Classroom", definition: "Phòng học" },
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-extra",
             title: "Extracurricular Activities",
-            image: "Suộc Ảnh/multitask.jpg",
+            image: "Suoc-Anh/multitask.jpg",
             cards: [
                 { term: "Club", definition: "Câu lạc bộ" },
                 { term: "Volunteer", definition: "Tình nguyện viên" },
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             id: "deck-exam",
             title: "Examination",
-            image: "Suộc Ảnh/studentgroup.jpg",
+            image: "Suoc-Anh/studentgroup.jpg",
             cards: [
                 { term: "Test", definition: "Bài kiểm tra" },
                 { term: "Score", definition: "Điểm số" },
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (deckArray.length === 0) {
                 deckListContainer.innerHTML = `
                     <div id="notFoundMessage" style="text-align: center; padding: 40px; width: 100%;">
-                        <img src="Suộc Ảnh/thinking.jpg" style="width: 100px; opacity: 0.5; margin-bottom: 15px;">
+                        <img src="Suoc-Anh/thinking.jpg" style="width: 100px; opacity: 0.5; margin-bottom: 15px;">
                         <p style="color: #666; font-family: 'Francois One', sans-serif; font-size: 18px;">
                             Hic, không tìm thấy bộ từ vựng nào khớp với từ khóa của bạn rồi! 😢
                         </p>
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 deckCard.className = "list-item"; 
                 deckCard.style.cursor = "pointer";
 
-                const imgSrc = currentDeck.image ? currentDeck.image : "Suộc Ảnh/togiay.png";
+                const imgSrc = currentDeck.image ? currentDeck.image : "Suoc-Anh/togiay.png";
 
                 deckCard.innerHTML = `
                     <img src="${imgSrc}" class="item-thumb" alt="thumb">
